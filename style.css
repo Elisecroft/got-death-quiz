@@ -141,3 +141,78 @@ body {
 .dbg {
   border: 2px solid red;
 }
+
+@media screen and (max-width: 900px) {
+  .game-container {
+    flex-direction: column;
+  }
+
+  .quiz-question {
+    position: absolute;
+    top: 10%;
+    width: 90%;
+  }
+
+  .quiz-question, .quiz-static-questionmark {
+    font-size: 38px;
+  }
+
+  .quiz-options-list {
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    width: 90%;
+  }
+
+  .quiz-option-button {
+    font-size: 30px;
+  }
+
+  .score-container {
+    position: absolute;
+    top: 70%
+  }
+
+  .score-streak {
+    font-size: 90px;
+  }
+
+  .game-over {
+    padding-left: 0;
+  }
+
+  .game-over h2 {
+    font-size: 65px;
+    margin: 20px 0px;
+  }
+
+  .game-footer p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .quiz-question, .quiz-static-questionmark {
+    font-size: 32px;
+  }
+
+  .quiz-options-list {
+    width: initial;
+  }
+
+  .quiz-option-button {
+    font-size: 25px;
+  }
+
+  .score-streak {
+    font-size: 70px;
+  }
+
+  .score-static-text {
+    font-size: 26px;
+  }
+
+  .score-container {
+    top: 75%
+  }
+}
