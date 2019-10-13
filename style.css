@@ -148,8 +148,6 @@ body {
   }
 
   .quiz-question {
-    position: absolute;
-    top: 10%;
     width: 90%;
   }
 
@@ -159,18 +157,11 @@ body {
 
   .quiz-options-list {
     margin: 0 auto;
-    position: absolute;
-    top: 40%;
     width: 90%;
   }
 
   .quiz-option-button {
     font-size: 30px;
-  }
-
-  .score-container {
-    position: absolute;
-    top: 70%
   }
 
   .score-streak {
@@ -183,7 +174,7 @@ body {
 
   .game-over h2 {
     font-size: 65px;
-    margin: 20px 0px;
+    margin: 30px 0px;
   }
 
   .game-footer p {
